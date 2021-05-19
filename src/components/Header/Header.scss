@@ -1,0 +1,12 @@
+.main-header {
+    background-color: #112b3e;
+    padding: 23px 0 13px 27px;
+    line-height: 47,48px;
+    &__name {
+        color: white;
+        &-domen {
+            font-size: 24px;
+            line-height: 31,65px;
+        }
+    }
+}
