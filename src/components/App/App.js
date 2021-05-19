@@ -1,10 +1,12 @@
-import {MainPage} from '..';
+import { MainPage } from '..';
 import './App.scss';
+import { Header } from '..';
 
 function App() {
   return (
     <div className="App">
-      <MainPage/>
+      <Header />
+      <MainPage />
     </div>
   );
 }

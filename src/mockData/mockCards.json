@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "img": "./img/1.png",
+        "description": "Reddit user claiming to be Tesla insider appeared to reveal bitcoin buy a month ago",
+        "linkText": "https://www.reuters.com/article",
+        "link": "https://www.reuters.com/article"
+    },
+    {
+        "id": 2,
+        "img": "./img/2.png",
+        "description": "Jobs for Economic Majors: Specialized/unique jobs",
+        "linkText": "Jobs for Economic Majors: Specialized/unique jobs https://www.thebalancecareers.com",
+        "link": "https://www.thebalancecareers.com"
+    },
+    {
+        "id": 3,
+        "img": "./img/3.png",
+        "description": "GM extends vehicle production cuts due to global chip shortage",
+        "linkText": "https://www.reuters.com/article",
+        "link": "https://www.reuters.com/article"
+    },
+    {
+        "id": 4,
+        "img": "./img/4.png",
+        "description": "Analysis: Can you buy a Tesla with bitcoin? How the payments might work",
+        "linkText": "",
+        "link": ""
+    },
+    {
+        "id": 5,
+        "img": "./img/5.png",
+        "description": "TOP stocks for February 2021",
+        "linkText": "",
+        "link": ""
+    },
+    {
+        "id": 6,
+        "img": "./img/6.png",
+        "description": "Honda raises full-year profit forecast helped by car sales rebound, cost cuts",
+        "linkText": "",
+        "link": ""
+    }
+]

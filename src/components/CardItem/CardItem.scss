@@ -1,0 +1,21 @@
+.card {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #839695;
+}
+.card-text {
+    color: white;
+    padding: 5px;
+    font-size: 24px;
+    background-color: #112b3e;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 155px;
+}
+.card-link {
+    color: white;
+    font-size: 10px;
+    background-color: #112b3e;
+    padding: 10px;
+}
