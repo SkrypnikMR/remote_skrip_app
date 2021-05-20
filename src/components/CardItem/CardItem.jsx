@@ -4,12 +4,13 @@ import { withRouter } from 'react-router-dom';
 import './CardItem.scss';
 
 function CardItem(props) {
-    const { id, img, description, link, linkText } = props.data;
+    const { id, imageUrl, title } = props.data;
+    console.log(id);
     return (
-        <Card id={id} onClick={() => { props.history.push('/article/' + props.data.id); }} className='cardItem'>
+        <Card id={id} onClick={() => { props.history.push('/article/' + id); }} className='cardItem'>
             <Card.Body>
-                <Card.Img variant="top" src={img} />
-                <Card.Text>{description}<Card.Link href={link}>{linkText}</Card.Link>
+                <Card.Img variant="top" src={imageUrl} />
+                <Card.Text>{title}
                 </Card.Text>
             </Card.Body>
         </Card >
