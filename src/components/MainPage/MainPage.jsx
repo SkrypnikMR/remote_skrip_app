@@ -2,7 +2,7 @@ import React from 'react';
 import './MainPage.scss';
 import { CardItem } from '..';
 import { Container, Row, Col } from 'react-bootstrap';
-import mockCards from '../../mockData/mockCards.json';
+
 
 function MainPage(props) {
     const createCards = (mockCards) => {
@@ -10,7 +10,7 @@ function MainPage(props) {
     };
     return (
         <Container fluid >
-            <Row >{createCards(mockCards)}</Row>
+            <Row >{createCards(props.data)}</Row>
         </Container >
     );
 }

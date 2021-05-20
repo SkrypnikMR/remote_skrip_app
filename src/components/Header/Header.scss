@@ -3,9 +3,18 @@
     background-color: #112b3e;
     padding: 23px 0 13px 27px;
     line-height: 47, 48px;
+
     &__name {
         background-color: #112b3e;
         color: white;
+        a {
+            background-color: #112b3e;
+            text-decoration: none;
+            color: white;
+            &:hover {
+                color: white;
+            }
+        }
         &-domen {
             background-color: #112b3e;
             font-size: 24px;

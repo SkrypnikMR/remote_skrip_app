@@ -1,0 +1,33 @@
+.container {
+    padding-top: 30px;
+    .col-xl-12 {
+        color: white;
+        h1 {
+            font-size: 36px;
+        }
+    }
+    .img-fluid {
+        width: 100%;
+        max-height: 448px;
+    }
+    .mainText {
+        margin-top:20px;
+        color: black;
+        font-size: 17px;
+    }
+    .сomment {
+        background-color: white;
+        color: black;
+        font-size: 17px;
+        &__tittle {
+            background-color: white;
+            padding: 15px;
+            font-size: 20px;
+        }
+        &__body {
+            background-color: white;
+            padding: 15px;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.comment {
+    border: none !important;
+    color: black;
+    background-color: white;
+    padding-bottom: 20px;
+    .card-body {
+        background-color: white;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+        padding: 35px;
+        .card-title {
+            background-color: white;
+            font-size: 20px;
+            padding-bottom: 20px;
+        }
+        .card-text {
+            background-color: white;
+            font-size: 14px;
+        }
+    }
+}

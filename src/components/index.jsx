@@ -10,5 +10,5 @@ export {
     Article,
     Header,
     MainPage,
-    CardItem,
+    CardItem
 };
