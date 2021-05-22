@@ -5,7 +5,6 @@ import './CardItem.scss';
 
 function CardItem(props) {
     const { id, imageUrl, title } = props.data;
-    console.log(id);
     return (
         <Card id={id} onClick={() => { props.history.push('/article/' + id); }} className='cardItem'>
             <Card.Body>

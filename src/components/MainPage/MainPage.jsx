@@ -5,7 +5,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 
 function MainPage(props) {
-    console.log(props.data);
     const createCards = (mockCards) => {
         return mockCards.map(el => <Col xl={4}> <CardItem data={el} key={el.id} /></Col >);
     };
