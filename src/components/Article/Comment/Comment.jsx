@@ -3,12 +3,12 @@ import { Card } from 'react-bootstrap';
 import './Comment.scss';
 
 function Comment(props) {
-    const { comment, commentTittle } = props.data;
+    let { expertComment } = props.data;
     return (
         <Card className='comment'>
             <Card.Body>
-                <Card.Title>{commentTittle}</Card.Title>
-                <Card.Text>{comment}</Card.Text>
+                <Card.Title>Expert Comment</Card.Title>
+                <Card.Text>{expertComment}</Card.Text>
             </Card.Body>
         </Card>
     );
